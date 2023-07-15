@@ -140,6 +140,3 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
-
-#Deploy Vercel
-vercel.json
