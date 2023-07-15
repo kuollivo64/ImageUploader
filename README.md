@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Image Uploader Component}</h1>
+<h1 align="center">Image Uploader Component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -70,22 +70,34 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 # Clone this repository
 $ git clone https://github.com/kuollivo64/ImageUploader.git
 
+# Install dependencies frontend
+$ cd front
+
 # Install dependencies
 $ npm install
 
 # Run the frontend
 $ npm run dev
-```
 
-```bash
-# Clone this repository
-$ git clone https://github.com/kuollivo64/ImageUploader.git
+# Install dependencies backend
+$ cd back
 
 # Install dependencies
 $ npm install
 
 # Run the backend
 $ npm run dev
+```
+Now you need the .ENV for back and front please to create for front .env.development and for backend create the file .env
+```bash
+# .env.development for fronend
+VITE_API_URL=URL-YOU-API
+# .env for backend
+PORT=YOU-PORT
+CLOUD_NAME=YOU-CLOUD-NAME
+API_KEY=YPU-API-KEY
+API_SECRET=YOU-API-SECRET
+FOLDER_NAME=YOU-FOLFER-IN-CLOUDINARY
 ```
 
 ## Acknowledgements
