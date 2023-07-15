@@ -21,7 +21,7 @@ export const ImageEndUploader = ({ data }) => {
           <img src={circle_ok} alt="" srcSet="" />
           <p className="text_1"> Uploaded Successfully! </p>
         </div>
-        <img src={url} alt="no-image" srcSet="" className="img_source_upload" />
+        <img src={url.replace(/^http:/, 'https:')} alt="no-image" srcSet="" className="img_source_upload" />
         <div className="box_copy">
           <p className="text_4">
             {url.length >= 53 ? url.slice(0, 53) + "..." : url}{" "}
