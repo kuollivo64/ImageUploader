@@ -4,7 +4,7 @@ import "./../scss/ImageEndUploader.scss";
 export const ImageEndUploader = ({ data }) => {
   const { url } = data;
   const handleCopyClick = () => {
-    navigator.clipboard.writeText(url);
+    navigator.clipboard.writeText(url.replace(/^http:/, 'https:'));
     toast("Link Copy!", {
       icon: "👏",
       style: {
@@ -24,7 +24,7 @@ export const ImageEndUploader = ({ data }) => {
         <img src={url.replace(/^http:/, 'https:')} alt="no-image" srcSet="" className="img_source_upload" />
         <div className="box_copy">
           <p className="text_4">
-            {url.length >= 53 ? url.slice(0, 53) + "..." : url}{" "}
+            {url.length >= 53 ? url.replace(/^http:/, 'https:').slice(0, 53) + "..." : url.replace(/^http:/, 'https:')}{" "}
           </p>
           <button
             className="button_copy"

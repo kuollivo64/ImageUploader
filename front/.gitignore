@@ -31,3 +31,4 @@ dist-ssr
 *.sw?
 #Deploy Vercel
 vercel.json
+.vercel
