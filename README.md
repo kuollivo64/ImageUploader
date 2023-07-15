@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Image Uploader Component}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/kuollivo64/ImageUploader">
       Solution
     </a>
     <span> | </span>
@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
@@ -37,22 +37,22 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](http://res.cloudinary.com/createout/image/upload/v1689390431/express_image_uploader/zxr8utevfepnp186jq9m.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+This project is a challenge of devchallenges which is to create a fullstack app to upload an image to the cloud and to get what your URL from the cloud and to have a way to save images. where you can see a demo of the challenge online for testing in [ link ] also say that the challenge was very interesting in relation to demonstrate my skills and thus continue to improve learning more than all the layout of a design previously established without the help of what is framworks or libraries already predesigned. 
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Sass](https://www.npmjs.com/package/sass/)
+- [Axios](https://axios-http.com/docs/intro)
+- [React-Toast-Hot](https://react-hot-toast.com/)
+- [Animate.css](https://animate.style/)
+- [Express](https://expressjs.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Multer](https://expressjs.com/en/resources/middleware/multer.html/)
 
 ## Features
 
@@ -68,13 +68,24 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/kuollivo64/ImageUploader.git
 
 # Install dependencies
 $ npm install
 
-# Run the app
-$ npm start
+# Run the frontend
+$ npm run dev
+```
+
+```bash
+# Clone this repository
+$ git clone https://github.com/kuollivo64/ImageUploader.git
+
+# Install dependencies
+$ npm install
+
+# Run the backend
+$ npm run dev
 ```
 
 ## Acknowledgements
@@ -87,6 +98,4 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@kuollivo64](https://github.com/kuollivo64/)
