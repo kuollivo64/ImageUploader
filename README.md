@@ -39,7 +39,7 @@
 
 ![screenshot](http://res.cloudinary.com/createout/image/upload/v1689390431/express_image_uploader/zxr8utevfepnp186jq9m.png)
 
-This project is a challenge of devchallenges which is to create a fullstack app to upload an image to the cloud and to get what your URL from the cloud and to have a way to save images. where you can see a demo of the challenge online for testing in [ link ] also say that the challenge was very interesting in relation to demonstrate my skills and thus continue to improve learning more than all the layout of a design previously established without the help of what is framworks or libraries already predesigned. 
+This project is a devchallenges challenge which is to create a fullstack app to upload an image to the cloud and get what your URL from the cloud and have a way to save images. where you can see a demo of the challenge online for testing in [ link ] also say that the challenge was very interesting in relation to demonstrate my skills and thus continue to improve learning more than all the layout of a design previously established without the help of what is framworks or libraries already predesigned for this solution was worked with ReactJs and Express and the cloud was used Cloudinary to host the uploaded images also use nested style sheets such as Sass and worked with flex-. box for the layout part we tried to work as simple as possible but this can be further improved. 
 
 ### Built With
 
@@ -88,7 +88,7 @@ $ npm install
 # Run the backend
 $ npm run dev
 ```
-Now you need the .ENV for back and front please to create for front .env.development and for backend create the file .env
+Now you need the .ENV for back and front please to create for front .env.development and for backend create the file .env.
 FRONTEND - REACT JS
 ```bash
 # .env.development for fronend
