@@ -6,7 +6,7 @@
   flex-wrap: nowrap;
   align-content: center;
   padding: 35px;
-  gap: 5px;
+  gap: 15px;
   .flex_sub_content {
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
-    padding: 15px;
+    padding: 0px;
     gap: 5px;
   }
   .img_source_upload {
@@ -43,10 +43,10 @@
       border-radius: 8px;
       border-style: none;
       color: #FFFFFF;
-      font-size: 8px;
+      font-size: 9px;
       background: var(--blue-1, #2f80ed);
       &:hover {
-        background: var(--blue-1, rgb(86, 138, 205));
+        background: var(--blue-1, #1975ef);
       }
     }
   }

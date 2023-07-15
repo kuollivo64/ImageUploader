@@ -1,19 +1,18 @@
+import { toast } from "react-hot-toast";
 import circle_ok from "./../assets/icon_ok.svg";
 import "./../scss/ImageEndUploader.scss";
-import { useState } from "react";
-export const ImageEndUploader = () => {
-  const [text, setText] = useState(
-    "https://images.yourdomain.com/photo-1496950866446-325"
-  );
+export const ImageEndUploader = ({ data }) => {
+  const { url } = data;
   const handleCopyClick = () => {
-    navigator.clipboard
-      .writeText(text)
-      .then(() => {
-        console.log("Contenido copiado al portapapeles");
-      })
-      .catch((error) => {
-        console.error("Error al copiar el contenido al portapapeles:", error);
-      });
+    navigator.clipboard.writeText(url);
+    toast("Link Copy!", {
+      icon: "👏",
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
   };
   return (
     <div className="card">
@@ -22,12 +21,16 @@ export const ImageEndUploader = () => {
           <img src={circle_ok} alt="" srcSet="" />
           <p className="text_1"> Uploaded Successfully! </p>
         </div>
-        <img src="" alt="no-image" srcSet="" className="img_source_upload" />
+        <img src={url} alt="no-image" srcSet="" className="img_source_upload" />
         <div className="box_copy">
           <p className="text_4">
-            {text.length >= 53 ? text.slice(0, 53) + "..." : text}{" "}
+            {url.length >= 53 ? url.slice(0, 53) + "..." : url}{" "}
           </p>
-          <button className="button_copy" type="button" onClick={handleCopyClick}>
+          <button
+            className="button_copy"
+            type="button"
+            onClick={handleCopyClick}
+          >
             Copy Link
           </button>
         </div>
