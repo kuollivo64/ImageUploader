@@ -89,9 +89,13 @@ $ npm install
 $ npm run dev
 ```
 Now you need the .ENV for back and front please to create for front .env.development and for backend create the file .env
+FRONTEND - REACT JS
 ```bash
 # .env.development for fronend
 VITE_API_URL=URL-YOU-API
+```
+BACKEND EXPRESS NODEJS 
+```bash
 # .env for backend
 PORT=YOU-PORT
 CLOUD_NAME=YOU-CLOUD-NAME
