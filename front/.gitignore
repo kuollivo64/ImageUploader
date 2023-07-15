@@ -7,9 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-#ENV
+# dotenv environment variable files
 .env
-.env.development
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 #NodeJS
 node_modules
 dist
@@ -26,3 +29,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+#Deploy Vercel
+vercel.json
